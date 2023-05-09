@@ -1,4 +1,73 @@
-.logo {
-    width: 90px;
-    height: 90px;
+.elkevent-mobile-nav {
+}
+
+.logo-img {
+	width: 100px;
+	height: 100px;
+}
+
+.elkevent-nav {
+	background: white !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 0px;
+	width: 100%;
+	z-index: 999;
+	height: auto;
+	border: 0.4px solid #00000014;
+}
+
+.navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item a.active {
+	color: #d3124a;
+	font-weight: 700;
+	font-size: 12px;
+}
+
+.elkevent-nav nav .navbar-nav .nav-item a {
+	font-weight: 600;
+	font-size: 12px;
+	color: black;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+
+.anusandhan-btn {
+	background-color: #3c8d3c !important;
+	color: #fff !important;
+}
+
+.elkevent-nav nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.child-nav-gis {
+	position: absolute;
+	z-index: 999;
+	background: white;
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+	padding: 14px;
+	border-radius: 10px;
+	display: none;
+	background-color: #121842;
+}
+
+.main_register:hover .child-nav-gis {
+	display: block !important;
+}
+
+.child-nav-gis li a {
+	padding: 8px 10px 8px 16px !important;
+	color: white;
+	font-size: 12px;
+}
+
+.carousel-img {
+	height: 200px !important;
 }
