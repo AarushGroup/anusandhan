@@ -1,0 +1,48 @@
+.primary-highlight {
+    color: orange !important;
+}
+
+.secondary-highlight {
+    color: green !important;
+    margin-left: 5px;
+}
+
+.contact-us-icon {
+    height: 40px;
+    width: 40px;
+}
+
+.contact-name {
+    background: linear-gradient(91.64deg, #FFA500 5.95%, #3BAF3B 96.46%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-card {
+    background-color: #f5f8fa !important;
+    border: 0 !important;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.contact-card h4 {
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+.contact-card p {
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: #707070;
+}
+
+.contacts-card {
+    margin-bottom: 40px !important;
+}
+
+.location-map {
+    margin-top: 80px !important;
+    margin-bottom: 70px !important;
+}

@@ -1,4 +1,14 @@
-.elkevent-mobile-nav {
+.anusandhan-btn {
+	background-color: #3c8d3c !important;
+	color: #fff !important;
+	border-radius: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.anusandhan-btn:hover {
+	background-color: #055e05 !important;
+	transition: 0.2s;
 }
 
 .logo-img {
@@ -19,7 +29,7 @@
 }
 
 .navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item a.active {
-	color: #d3124a;
+	color: #FFA500;
 	font-weight: 700;
 	font-size: 12px;
 }
