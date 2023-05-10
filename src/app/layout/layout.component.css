@@ -4,6 +4,8 @@
   border-radius: 14px;
   padding: 5px 15px !important;
   height: 30px;
+}
+.anusandhan-btn:hover {
   box-shadow: 0 0 5px #3c8d3c;
 }
 
