@@ -34,9 +34,52 @@
   .navbar-nav
   .nav-item
   a.active {
-  color: #ffa500;
+  color: #fff;
   font-weight: 700;
   font-size: 12px;
+}
+
+.navbar-area-with-bottom-color
+  .elkevent-nav
+  .navbar
+  .navbar-nav
+  .nav-item:hover
+  a {
+  color: #ffa500;
+}
+
+.navbar-area-with-bottom-color
+  .elkevent-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a {
+  border-bottom: none;
+  color: #fff;
+}
+
+.navbar-area-with-bottom-color
+  .elkevent-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  a:hover,
+.navbar-area-with-bottom-color
+  .elkevent-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  a:focus,
+.navbar-area-with-bottom-color
+  .elkevent-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  a.active {
+  color: #ffa500;
+  border-bottom: 1px solid #055e05 !important;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item a {
@@ -49,6 +92,93 @@
   padding-bottom: 0;
   margin-left: 13px;
   margin-right: 13px;
+}
+.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu {
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+  background: #055e05;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 250px;
+  z-index: 99;
+  display: block;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 20px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-nav .dropdown-menu {
+  position: static;
+}
+.elkevent-nav nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.elkevent-nav nav .navbar-nav .nav-item:hover ul {
+  opacity: 1;
+  visibility: visible;
+  top: 170%;
+}
+
+.navbar-area-with-bottom-color
+  .elkevent-nav
+  .navbar
+  .navbar-nav
+  ul.dropdown-menu
+  .nav-item:hover
+  a {
+  border-bottom: 0 solid #ffa500 !important;
+}
+.navbar-area-with-bottom-color
+  .elkevent-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a:hover,
+.navbar-area-with-bottom-color
+  .elkevent-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a:focus,
+.navbar-area-with-bottom-color
+  .elkevent-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  a.active {
+  border: 0 !important;
+  color: #ffa500;
+}
+
+.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li a {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 9px 15px;
+  margin: 0;
+  display: block;
+  color: #ffa500;
+}
+
+.elkevent-nav nav .navbar-nav .nav-item .dropdown-menu li {
+  position: relative;
+  padding: 0;
+}
+.elkevent-nav nav .navbar-nav .nav-item {
+  position: relative;
 }
 
 .anusandhan-btn {
