@@ -5,7 +5,7 @@
 body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
-  /* background-color: linear-gradient(to right, #fdfdfd, #ebedee); */
+  font-size: 17px;
 }
 
 .rainbow-gradient-circle {
@@ -34,4 +34,22 @@ body {
 
 .custom-section {
   margin-top: 7px;
+  min-height: 100vh;
+}
+
+p {
+  color: #707070;
+}
+
+.anusandhan-header {
+  background: linear-gradient(to right, #ffa500 13.95%, #3baf3b 23.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.section-block {
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
