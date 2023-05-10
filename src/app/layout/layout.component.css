@@ -1,14 +1,14 @@
 .anusandhan-btn {
-	background-color: #3c8d3c !important;
-	color: #fff !important;
-	border-radius: 14px;
-	padding-left: 15px;
-	padding-right: 15px;
+  background-color: #3c8d3c !important;
+  color: #fff !important;
+  border-radius: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .anusandhan-btn:hover {
-	background-color: #055e05 !important;
-	transition: 0.2s;
+  background-color: #055e05 !important;
+  transition: 0.2s;
 }
 
 .logo-img {
@@ -28,10 +28,15 @@
   border: 0.4px solid #00000014;
 }
 
-.navbar-area-with-bottom-color .elkevent-nav .navbar .navbar-nav .nav-item a.active {
-	color: #FFA500;
-	font-weight: 700;
-	font-size: 12px;
+.navbar-area-with-bottom-color
+  .elkevent-nav
+  .navbar
+  .navbar-nav
+  .nav-item
+  a.active {
+  color: #ffa500;
+  font-weight: 700;
+  font-size: 12px;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item a {
@@ -101,8 +106,11 @@
   margin-bottom: 10px;
 }
 .footer-container .footer-lists .footer-body p {
-  color: #fff;
+  color: #6d6d6d;
   font-size: 16px;
+}
+.footer-container .footer-lists .footer-body p a:hover {
+  border-bottom: 1px solid red;
 }
 .footer-container .footer-lists .footer-body .copyright-text {
   color: red;
@@ -139,7 +147,7 @@
 .footer-lists p {
   font-size: 16px;
   margin-bottom: 5px;
-  color: #eaf0fc;
+  color: #6d6d6d;
   opacity: 0.7;
 }
 .footer-lists p img {
