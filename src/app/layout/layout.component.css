@@ -2,13 +2,18 @@
   background-color: #3c8d3c !important;
   color: #fff !important;
   border-radius: 14px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 5px 15px !important;
+  height: 30px;
+  box-shadow: 0 0 5px #3c8d3c;
 }
 
 .anusandhan-btn:hover {
   background-color: #055e05 !important;
   transition: 0.2s;
+}
+
+.elkevent-nav nav .navbar-nav .anusandhan-register a:hover::after {
+  display: none;
 }
 
 .logo-img {
@@ -79,7 +84,7 @@
   .nav-item
   a.active {
   color: #ffa500;
-  border-bottom: 1px solid #055e05 !important;
+  /* border-bottom: 1px solid #055e05; */
 }
 
 .elkevent-nav nav .navbar-nav .nav-item a {
@@ -93,6 +98,26 @@
   margin-left: 13px;
   margin-right: 13px;
 }
+
+.elkevent-nav nav .navbar-nav .nav-item a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.elkevent-nav nav .navbar-nav .nav-item a::after {
+  content: "";
+  display: block;
+  width: 0;
+  margin: auto;
+  height: 2px;
+  background: #055e05;
+  transition: width 0.2s ease;
+}
+.elkevent-nav nav .navbar-nav .nav-item a:hover::after {
+  width: 100%;
+}
+
 .elkevent-nav nav .navbar-nav .nav-item .dropdown-menu {
   -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
@@ -112,9 +137,11 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 .navbar-nav .dropdown-menu {
   position: static;
 }
+
 .elkevent-nav nav ul {
   padding: 0;
   margin: 0;
@@ -136,6 +163,7 @@
   a {
   border-bottom: 0 solid #ffa500 !important;
 }
+
 .navbar-area-with-bottom-color
   .elkevent-nav
   .navbar
