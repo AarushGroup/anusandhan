@@ -6,6 +6,11 @@ body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+  background-image: url('./assets/images/website-background.svg');
+  background-size: auto;
+  background-position: center;
+  background-repeat-x: no-repeat;
+  background-repeat-y: repeat;
 }
 
 .rainbow-gradient-circle {
