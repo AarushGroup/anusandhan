@@ -5,7 +5,7 @@
 body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 .rainbow-gradient-circle {
@@ -42,7 +42,7 @@ p {
 }
 
 .anusandhan-header {
-  background: linear-gradient(to right, #ffa500 13.95%, #3baf3b 50.46%);
+  background: linear-gradient(to right, #ffa500 40.95%, #3baf3b 62.46%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
@@ -52,4 +52,16 @@ p {
 .section-block {
   margin-top: 90px;
   margin-bottom: 90px;
+}
+
+.read-more-btn {
+  background-color: #3c8d3c !important;
+  color: #fff;
+  border-radius: 19px;
+}
+
+.read-more-btn:hover {
+  background-color: #055e05 !important;
+  transition: 0.2s;
+  color: #fff;
 }
