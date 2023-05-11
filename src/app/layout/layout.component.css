@@ -251,6 +251,7 @@
 
 .footer-container {
   background: #000;
+  /* background-image: url("../../assets/images/footer-bg1.png"); */
   height: auto;
   opacity: 1;
 }
