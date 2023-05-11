@@ -365,3 +365,14 @@
   padding: 0 30px;
   padding-bottom: 0 !important;
 }
+
+/* //footer-new */
+
+.copyright {
+  color: #fff;
+}
+.footer-spacer-wap {
+  display: block;
+  border-bottom: 1px dotted #fff;
+  margin-bottom: 1rem;
+}
