@@ -251,7 +251,8 @@
 
 .footer-container {
   background-color: #000;
-  height: 407px;
+  height: auto;
+  opacity: 1;
 }
 
 .footer-container .footer-lists {
@@ -278,6 +279,33 @@
   font-size: 16px;
 }
 
+.footer-container .anusandhan-footer-logo h4 {
+  background: linear-gradient(to right, #ffa500 13.95%, #3baf3b 50.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 20px;
+  height: fit-content;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.footer-container .anusandhan-footer-logo p {
+  background: linear-gradient(to right, #ffa500 13.95%, #3baf3b 50.46%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 200;
+  font-size: 5px;
+  /* height: fit-content; */
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.footer-container .anusandhan-footer-logo {
+  display: flex;
+  align-items: center;
+}
+
 .footer-sub-list {
   list-style: none;
   padding: 0 30px;
@@ -297,6 +325,7 @@
 .footer-sub-list .footer-body-items:hover {
   color: #fff !important;
   transition: 0.3s;
+  font-weight: 500;
 }
 
 .footer-container .footer-lists .footer-body {
@@ -328,4 +357,11 @@
 
 .social-links a {
   margin-right: 20px;
+}
+
+.footer-container .technology-partner h6 {
+  font-size: 16px;
+  color: #fff;
+  padding: 0 30px;
+  padding-bottom: 0 !important;
 }
