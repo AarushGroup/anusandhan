@@ -368,6 +368,11 @@
   /* display: block; */
   border-bottom: 1px dotted #fff;
   margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-container .social-links {
+  margin-top: 100px;
 }
 
 /* .footer-container .technology-partner h6 {
