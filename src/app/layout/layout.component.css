@@ -250,8 +250,8 @@
 /* footer */
 
 .footer-container {
-  background: #000;
-  /* background-image: url("../../assets/images/footer-bg1.png"); */
+  /* background: #000; */
+  background-image: url("../../assets/images/main-footer.png");
   height: auto;
   opacity: 1;
 }
@@ -354,12 +354,18 @@
   margin-right: 20px;
 }
 
-.copyright {
+.copyright .copyright-text {
   color: #fff;
+  font-size: 13px;
+  text-align: start;
+}
+.copyright h6 {
+  color: #fff;
+  font-size: 15px;
 }
 
 .footer-spacer-wap {
-  display: block;
+  /* display: block; */
   border-bottom: 1px dotted #fff;
   margin-bottom: 1rem;
 }
