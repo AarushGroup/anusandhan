@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LayoutComponent } from './layout.component';
 import { StartUpsComponent } from '../start-ups/start-ups.component';
+import { AgritechComponent } from '../agritech/agritech.component';
+import { IncubationsInvestComponent } from '../incubations-invest/incubations-invest.component';
 
 const routes: Routes = [
   { 
@@ -17,7 +19,12 @@ const routes: Routes = [
 
 { path: 'advantage', loadChildren: () => import('../advantage/advantage.module').then(m => m.AdvantageModule) },
 
-{path: 'start-ups', component: StartUpsComponent}
+{path: 'start-ups', component: StartUpsComponent},
+
+{path: 'agritech', component: AgritechComponent},
+
+{path: 'incubations-investments', component: IncubationsInvestComponent},
+
 
 ];
 

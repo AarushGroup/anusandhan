@@ -4,11 +4,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StartUpsComponent } from './start-ups/start-ups.component';
+import { IncubationsInvestComponent } from './incubations-invest/incubations-invest.component';
+import { EHealthComponent } from './e-health/e-health.component';
+import { EdtechComponent } from './edtech/edtech.component';
+import { AgritechComponent } from './agritech/agritech.component';
+import { EAutomobilesComponent } from './e-automobiles/e-automobiles.component';
+import { RenewableEnergyComponent } from './renewable-energy/renewable-energy.component';
+import { LogisticsComponent } from './logistics/logistics.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StartUpsComponent,
+    IncubationsInvestComponent,
+    EHealthComponent,
+    EdtechComponent,
+    AgritechComponent,
+    EAutomobilesComponent,
+    RenewableEnergyComponent,
+    LogisticsComponent,
   ],
   imports: [
     BrowserModule,
