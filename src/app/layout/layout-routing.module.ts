@@ -4,6 +4,11 @@ import { LayoutComponent } from './layout.component';
 import { StartUpsComponent } from '../start-ups/start-ups.component';
 import { AgritechComponent } from '../agritech/agritech.component';
 import { IncubationsInvestComponent } from '../incubations-invest/incubations-invest.component';
+import { EdtechComponent } from '../edtech/edtech.component';
+import { EAutomobilesComponent } from '../e-automobiles/e-automobiles.component';
+import { EHealthComponent } from '../e-health/e-health.component';
+import { RenewableEnergyComponent } from '../renewable-energy/renewable-energy.component';
+import { LogisticsComponent } from '../logistics/logistics.component';
 
 const routes: Routes = [
   { 
@@ -25,6 +30,15 @@ const routes: Routes = [
 
 {path: 'incubations-investments', component: IncubationsInvestComponent},
 
+{path: 'edtech', component: EdtechComponent},
+
+{path: 'e-automobiles', component: EAutomobilesComponent},
+
+{path: 'e-health', component: EHealthComponent},
+
+{path: 'renewable-energy', component: RenewableEnergyComponent},
+
+{path: 'logistics', component: LogisticsComponent},
 
 ];
 

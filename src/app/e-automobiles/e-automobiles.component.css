@@ -1,0 +1,51 @@
+.start-ups-banner {
+    margin-top: 15px;
+  }
+  
+  .start-ups-content.start-ups-content-text-center {
+    margin-bottom: 4rem;
+  }
+  
+  .start-ups-content h6 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 2rem;
+    color: #3e368a;
+    margin: 1.5rem 0;
+    font-family: "Poppins";
+  }
+  
+  .start-ups-content.start-ups-content-text-center p {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  .zones {
+    min-height: auto;
+    padding: 3rem 2rem;
+    /* background: #ffffff7a 0% 0% no-repeat padding-box; */
+    background: #fff;
+    box-shadow: -0.156vw 0.156vw 0.781vw rgb(0 0 0 / 16%);
+    border-radius: 1.563vw;
+    padding-right: 5rem;
+  }
+  
+  .zones h4 {
+    color: #3e368a;
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .zones ul li {
+    line-height: 1.8rem;
+    color: #2b2b2b;
+    margin-bottom: 15px;
+  }
+  
+  .zones ul li::marker {
+    color: #3e368a;
+    font-size: 1.3rem;
+    position: relative;
+  }
+  

@@ -55,8 +55,8 @@ p {
 }
 
 .section-block {
-  margin-top: 90px;
-  margin-bottom: 90px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .read-more-btn {
@@ -69,4 +69,15 @@ p {
   background-color: #055e05 !important;
   transition: 0.2s;
   color: #fff;
+}
+
+.carousel-indicators {
+  top: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #8bd59a;
 }

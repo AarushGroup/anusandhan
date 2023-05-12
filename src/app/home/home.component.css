@@ -15,11 +15,31 @@
 } */
 
 .video-section {
-  position: relative;
-  align-items: center;
+	position: relative;
+	align-items: center;
 }
 
 .about-anusandhan {
-  text-align: justify;
-  margin-right: 40px;
+	text-align: justify;
+	margin-right: 40px;
+}
+
+.minister-message {
+	color: #055e05;
+	font-weight: 600;
+	font-size: 23px;
+	margin-bottom: 3px;
+}
+
+.minister-img {
+	height: 281px;
+	width: 281px;
+}
+
+.message-header {
+	color: #055e05;
+	font-size: 36px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 60px;
 }
