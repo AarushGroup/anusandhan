@@ -47,9 +47,10 @@ p {
 }
 
 .anusandhan-header {
-  background: linear-gradient(to right, #ffa500 40.95%, #3baf3b 62.46%);
+  /* background: linear-gradient(to right, #ffa500 40.95%, #3baf3b 62.46%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  color: #3c8d3c;
   font-weight: 600;
   font-size: 36px;
 }
