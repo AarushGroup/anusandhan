@@ -12,6 +12,7 @@ import { EAutomobilesComponent } from './e-automobiles/e-automobiles.component';
 import { RenewableEnergyComponent } from './renewable-energy/renewable-energy.component';
 import { LogisticsComponent } from './logistics/logistics.component';
 import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
+import { EnvironmentComponent } from './environment/environment.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
     RenewableEnergyComponent,
     LogisticsComponent,
     ScrollToTopComponent,
+    EnvironmentComponent,
   ],
   imports: [
     BrowserModule,
