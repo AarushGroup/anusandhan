@@ -1,0 +1,19 @@
+.about-card {
+    border: 1px solid #E8E8E8;
+    box-shadow: 0px 4px 23px -8px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+    border: 0;
+}
+
+.about-card p {
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-align: justify;
+}
