@@ -15,6 +15,8 @@ import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
 import { EnvironmentComponent } from './environment/environment.component';
 import { AboutComponent } from './about/about.component';
 import { SpeakersComponent } from './speakers/speakers.component';
+import { SupportingOrganizationsComponent } from './sponsorships/supporting-organizations/supporting-organizations.component';
+import { PrimePartnersComponent } from './sponsorships/prime-partners/prime-partners.component';
 
 @NgModule({
   declarations: [
@@ -31,12 +33,11 @@ import { SpeakersComponent } from './speakers/speakers.component';
     EnvironmentComponent,
     AboutComponent,
     SpeakersComponent,
+    SupportingOrganizationsComponent,
+    PrimePartnersComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

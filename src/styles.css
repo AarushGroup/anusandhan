@@ -42,6 +42,10 @@ body {
   min-height: 100vh;
 }
 
+.custom-padding {
+  padding-top: 60px;
+}
+
 p {
   color: #707070;
 }
@@ -64,6 +68,27 @@ p {
   background-color: #3c8d3c !important;
   color: #fff;
   border-radius: 19px;
+}
+
+.visit-btn {
+  border: 1px solid #3c8d3c !important;
+  color: #3c8d3c;
+  border-radius: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.2s;
+  /* width: fit-content;
+  margin: auto; */
+}
+
+.visit-btn:hover {
+  background-color: #3c8d3c;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.visit-btn img {
+  margin-left: 10px;
 }
 
 .read-more-btn:hover {
