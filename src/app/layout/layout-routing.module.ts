@@ -10,9 +10,12 @@ import { EHealthComponent } from '../e-health/e-health.component';
 import { RenewableEnergyComponent } from '../renewable-energy/renewable-energy.component';
 import { LogisticsComponent } from '../logistics/logistics.component';
 import { EnvironmentComponent } from '../environment/environment.component';
+import { AdvantageComponent } from '../advantage/advantage.component';
+import { AboutComponent } from '../about/about.component';
+import { SpeakersComponent } from '../speakers/speakers.component';
 import { SupportingOrganizationsComponent } from '../sponsorships/supporting-organizations/supporting-organizations.component';
 import { EventPartnersComponent } from '../sponsorships/event-partners/event-partners.component';
-import { PrimePartnersComponent } from '../sponsorships/prime-partners/prime-partners.component'
+import { PrimePartnersComponent } from '../sponsorships/prime-partners/prime-partners.component';
 import { PremiumPartnersComponent } from '../sponsorships/premium-partners/premium-partners.component';
 import { PrinciplePartnersComponent } from '../sponsorships/principle-partners/principle-partners.component';
 import { PrincipleCoPartnersComponent } from '../sponsorships/principle-co-partners/principle-co-partners.component';
@@ -21,59 +24,74 @@ import { AssociateCoPartnersComponent } from '../sponsorships/associate-co-partn
 import { CorporatePartnersComponent } from '../sponsorships/corporate-partners/corporate-partners.component';
 
 const routes: Routes = [
-  { 
-    path : '',
-    redirectTo : 'home',
-    pathMatch : 'full'
+  {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full',
   },
-  { path: 'home',
-  loadChildren: () => import('../home/home.module').then(m => m.HomeModule) 
+  {
+    path: 'home',
+    loadChildren: () => import('../home/home.module').then((m) => m.HomeModule),
+  },
+  {
+    path: 'contact-us',
+    loadChildren: () =>
+      import('../contact/contact.module').then((m) => m.ContactModule),
+  },
 
-},
-{ path: 'contact-us', loadChildren: () => import('../contact/contact.module').then(m => m.ContactModule) },
+  {
+    path: 'advantage',
+    loadChildren: () =>
+      import('../advantage/advantage.module').then((m) => m.AdvantageModule),
+  },
 
-{ path: 'advantage', loadChildren: () => import('../advantage/advantage.module').then(m => m.AdvantageModule) },
+  { path: 'start-ups', component: StartUpsComponent },
 
-{path: 'start-ups', component: StartUpsComponent},
+  { path: 'agritech', component: AgritechComponent },
 
-{path: 'agritech', component: AgritechComponent},
+  { path: 'incubations-investments', component: IncubationsInvestComponent },
 
-{path: 'incubations-investments', component: IncubationsInvestComponent},
+  { path: 'edtech', component: EdtechComponent },
 
-{path: 'edtech', component: EdtechComponent},
+  { path: 'e-automobiles', component: EAutomobilesComponent },
 
-{path: 'e-automobiles', component: EAutomobilesComponent},
+  { path: 'e-health', component: EHealthComponent },
 
-{path: 'e-health', component: EHealthComponent},
+  { path: 'renewable-energy', component: RenewableEnergyComponent },
 
-{path: 'renewable-energy', component: RenewableEnergyComponent},
+  { path: 'logistics', component: LogisticsComponent },
 
-{path: 'logistics', component: LogisticsComponent},
+  { path: 'environment', component: EnvironmentComponent },
 
-{path: 'environment', component: EnvironmentComponent},
+  { path: 'advantage-anusandhaan', component: AdvantageComponent },
 
-{path: 'supporting-organizations', component: SupportingOrganizationsComponent},
+  { path: 'about', component: AboutComponent },
 
-{path: 'event-partners', component: EventPartnersComponent},
+  { path: 'speakers', component: SpeakersComponent },
+  {
+    path: 'supporting-organizations',
+    component: SupportingOrganizationsComponent,
+  },
 
-{path: 'prime-partners', component: PrimePartnersComponent},
+  { path: 'event-partners', component: EventPartnersComponent },
 
-{path: 'premium-partners', component: PremiumPartnersComponent},
+  { path: 'prime-partners', component: PrimePartnersComponent },
 
-{path: 'principle-partners', component: PrinciplePartnersComponent},
+  { path: 'premium-partners', component: PremiumPartnersComponent },
 
-{path: 'principle-co-partners', component: PrincipleCoPartnersComponent},
+  { path: 'principle-partners', component: PrinciplePartnersComponent },
 
-{path: 'associate-partners', component: AssociatePartnersComponent},
+  { path: 'principle-co-partners', component: PrincipleCoPartnersComponent },
 
-{path: 'associate-co-partners', component: AssociateCoPartnersComponent},
+  { path: 'associate-partners', component: AssociatePartnersComponent },
 
-{path: 'corporate-partners', component: CorporatePartnersComponent},
+  { path: 'associate-co-partners', component: AssociateCoPartnersComponent },
 
+  { path: 'corporate-partners', component: CorporatePartnersComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class LayoutRoutingModule { }
+export class LayoutRoutingModule {}

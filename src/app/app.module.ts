@@ -13,9 +13,10 @@ import { RenewableEnergyComponent } from './renewable-energy/renewable-energy.co
 import { LogisticsComponent } from './logistics/logistics.component';
 import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
 import { EnvironmentComponent } from './environment/environment.component';
+import { AboutComponent } from './about/about.component';
+import { SpeakersComponent } from './speakers/speakers.component';
 import { SupportingOrganizationsComponent } from './sponsorships/supporting-organizations/supporting-organizations.component';
 import { PrimePartnersComponent } from './sponsorships/prime-partners/prime-partners.component';
-
 
 @NgModule({
   declarations: [
@@ -30,15 +31,13 @@ import { PrimePartnersComponent } from './sponsorships/prime-partners/prime-part
     LogisticsComponent,
     ScrollToTopComponent,
     EnvironmentComponent,
+    AboutComponent,
+    SpeakersComponent,
     SupportingOrganizationsComponent,
     PrimePartnersComponent,
- 
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
