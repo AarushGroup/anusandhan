@@ -91,7 +91,7 @@ const routes: Routes = [
 
   { path: 'corporate-partners', component: CorporatePartnersComponent },
 
-  { path: 'industryConnect', component: IndustryConnectComponent },
+  { path: 'industry-connect', component: IndustryConnectComponent },
 
   { path: 'event-schedule', component: EventScheduleComponent },
 ];
