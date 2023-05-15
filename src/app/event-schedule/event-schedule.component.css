@@ -1,0 +1,9 @@
+.table-head {
+	font-weight: normal;
+}
+
+.speaker-name {
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 3px;
+}
