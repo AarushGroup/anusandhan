@@ -10,43 +10,59 @@ import { EHealthComponent } from '../e-health/e-health.component';
 import { RenewableEnergyComponent } from '../renewable-energy/renewable-energy.component';
 import { LogisticsComponent } from '../logistics/logistics.component';
 import { EnvironmentComponent } from '../environment/environment.component';
+import { AdvantageComponent } from '../advantage/advantage.component';
+import { AboutComponent } from '../about/about.component';
+import { SpeakersComponent } from '../speakers/speakers.component';
 
 const routes: Routes = [
-  { 
-    path : '',
-    redirectTo : 'home',
-    pathMatch : 'full'
+  {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full',
   },
-  { path: 'home',
-  loadChildren: () => import('../home/home.module').then(m => m.HomeModule) 
+  {
+    path: 'home',
+    loadChildren: () => import('../home/home.module').then((m) => m.HomeModule),
+  },
+  {
+    path: 'contact-us',
+    loadChildren: () =>
+      import('../contact/contact.module').then((m) => m.ContactModule),
+  },
 
-},
-{ path: 'contact-us', loadChildren: () => import('../contact/contact.module').then(m => m.ContactModule) },
+  {
+    path: 'advantage',
+    loadChildren: () =>
+      import('../advantage/advantage.module').then((m) => m.AdvantageModule),
+  },
 
-{ path: 'advantage', loadChildren: () => import('../advantage/advantage.module').then(m => m.AdvantageModule) },
+  { path: 'start-ups', component: StartUpsComponent },
 
-{path: 'start-ups', component: StartUpsComponent},
+  { path: 'agritech', component: AgritechComponent },
 
-{path: 'agritech', component: AgritechComponent},
+  { path: 'incubations-investments', component: IncubationsInvestComponent },
 
-{path: 'incubations-investments', component: IncubationsInvestComponent},
+  { path: 'edtech', component: EdtechComponent },
 
-{path: 'edtech', component: EdtechComponent},
+  { path: 'e-automobiles', component: EAutomobilesComponent },
 
-{path: 'e-automobiles', component: EAutomobilesComponent},
+  { path: 'e-health', component: EHealthComponent },
 
-{path: 'e-health', component: EHealthComponent},
+  { path: 'renewable-energy', component: RenewableEnergyComponent },
 
-{path: 'renewable-energy', component: RenewableEnergyComponent},
+  { path: 'logistics', component: LogisticsComponent },
 
-{path: 'logistics', component: LogisticsComponent},
+  { path: 'environment', component: EnvironmentComponent },
 
-{path: 'environment', component: EnvironmentComponent},
+  { path: 'advantage-anusandhaan', component: AdvantageComponent },
 
+  { path: 'about', component: AboutComponent },
+
+  { path: 'speakers', component: SpeakersComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class LayoutRoutingModule { }
+export class LayoutRoutingModule {}

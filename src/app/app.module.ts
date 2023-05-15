@@ -13,6 +13,8 @@ import { RenewableEnergyComponent } from './renewable-energy/renewable-energy.co
 import { LogisticsComponent } from './logistics/logistics.component';
 import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
 import { EnvironmentComponent } from './environment/environment.component';
+import { AboutComponent } from './about/about.component';
+import { SpeakersComponent } from './speakers/speakers.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { EnvironmentComponent } from './environment/environment.component';
     LogisticsComponent,
     ScrollToTopComponent,
     EnvironmentComponent,
+    AboutComponent,
+    SpeakersComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,64 @@
+.section-innerpage-wapper {
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.dis-ap {
+  margin-top: 35px;
+  margin-bottom: 100px;
+}
+
+a {
+  display: block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.specker-block-wapper {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 10px 5px;
+}
+
+.gim-header-speaker {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 257px;
+  height: 257px;
+}
+
+.gim-header-speaker img.img-fluid {
+  max-width: 100%;
+  border-radius: 17%;
+}
+
+.gim-body-speaker {
+  display: block;
+  margin-top: 1.5rem;
+}
+
+.gim-body-speaker h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-bottom: 5px;
+  color: #3e368a;
+}
+
+.gim-body-speaker p {
+  font-size: 0.9rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
