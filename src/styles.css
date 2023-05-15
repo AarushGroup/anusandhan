@@ -34,7 +34,8 @@ body {
   top: -250px;
   right: -250px;
   bottom: auto;
-  background-image: linear-gradient(45deg, #fb5343, #6549d5);
+  background-image: linear-gradient(45deg, #059dff, #36c6f0);
+  /* background-image: linear-gradient(45deg, #fb5343, #6549d5); */
 }
 
 .custom-section {
@@ -170,7 +171,7 @@ transition: 9s;
 }
 
 .sponsors-section {
-  background-color: #E9ECF2;
+  /* background-color: #E9ECF2; */
 }
 
 .sponsor-text {
