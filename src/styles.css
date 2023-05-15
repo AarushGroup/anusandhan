@@ -160,8 +160,8 @@ p {
 }
 
 .sponsor-link-card p {
-display: none;
-transition: 9s;
+  display: none;
+  transition: 9s;
 }
 
 .sponsor-card-container:hover .sponsor-link-card p {
@@ -178,7 +178,6 @@ transition: 9s;
   display: none;
   text-align: center;
   color: #000 !important;
-
 }
 
 .sponsor-card-container:hover .sponsor-text {
@@ -199,4 +198,8 @@ transition: 9s;
 
 .sponsor-card-container .btn:hover {
   background-color: #055e05;
+}
+
+.start-ups-content h6 {
+  color: #3c8d3c !important;
 }

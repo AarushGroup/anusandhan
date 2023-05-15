@@ -22,6 +22,7 @@ import { PrincipleCoPartnersComponent } from '../sponsorships/principle-co-partn
 import { AssociatePartnersComponent } from '../sponsorships/associate-partners/associate-partners.component';
 import { AssociateCoPartnersComponent } from '../sponsorships/associate-co-partners/associate-co-partners.component';
 import { CorporatePartnersComponent } from '../sponsorships/corporate-partners/corporate-partners.component';
+import { IndustryConnectComponent } from '../industry-connect/industry-connect.component';
 
 const routes: Routes = [
   {
@@ -88,6 +89,8 @@ const routes: Routes = [
   { path: 'associate-co-partners', component: AssociateCoPartnersComponent },
 
   { path: 'corporate-partners', component: CorporatePartnersComponent },
+
+  { path: 'industryConnect', component: IndustryConnectComponent },
 ];
 
 @NgModule({
