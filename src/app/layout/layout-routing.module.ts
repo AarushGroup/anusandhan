@@ -10,6 +10,15 @@ import { EHealthComponent } from '../e-health/e-health.component';
 import { RenewableEnergyComponent } from '../renewable-energy/renewable-energy.component';
 import { LogisticsComponent } from '../logistics/logistics.component';
 import { EnvironmentComponent } from '../environment/environment.component';
+import { SupportingOrganizationsComponent } from '../sponsorships/supporting-organizations/supporting-organizations.component';
+import { EventPartnersComponent } from '../sponsorships/event-partners/event-partners.component';
+import { PrimePartnersComponent } from '../sponsorships/prime-partners/prime-partners.component'
+import { PremiumPartnersComponent } from '../sponsorships/premium-partners/premium-partners.component';
+import { PrinciplePartnersComponent } from '../sponsorships/principle-partners/principle-partners.component';
+import { PrincipleCoPartnersComponent } from '../sponsorships/principle-co-partners/principle-co-partners.component';
+import { AssociatePartnersComponent } from '../sponsorships/associate-partners/associate-partners.component';
+import { AssociateCoPartnersComponent } from '../sponsorships/associate-co-partners/associate-co-partners.component';
+import { CorporatePartnersComponent } from '../sponsorships/corporate-partners/corporate-partners.component';
 
 const routes: Routes = [
   { 
@@ -42,6 +51,24 @@ const routes: Routes = [
 {path: 'logistics', component: LogisticsComponent},
 
 {path: 'environment', component: EnvironmentComponent},
+
+{path: 'supporting-organizations', component: SupportingOrganizationsComponent},
+
+{path: 'event-partners', component: EventPartnersComponent},
+
+{path: 'prime-partners', component: PrimePartnersComponent},
+
+{path: 'premium-partners', component: PremiumPartnersComponent},
+
+{path: 'principle-partners', component: PrinciplePartnersComponent},
+
+{path: 'principle-co-partners', component: PrincipleCoPartnersComponent},
+
+{path: 'associate-partners', component: AssociatePartnersComponent},
+
+{path: 'associate-co-partners', component: AssociateCoPartnersComponent},
+
+{path: 'corporate-partners', component: CorporatePartnersComponent},
 
 ];
 

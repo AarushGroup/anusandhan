@@ -1,0 +1,89 @@
+.sponsor-card {
+    box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.25);
+    border: 0;
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 199px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.sponsor-card-container {
+    position: relative;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.sponsor-link-card {
+    box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.25);
+    border: 0;
+    border-radius: 15px;
+    position: absolute;
+    /* top: 81%; */
+    width: 90%;
+    margin: auto;
+    margin-top: 172px !important;
+    padding: 49px 30px 26px 30px;
+    left: 0;
+    right: 0;
+    background-color: #e6f6e6;
+    transition: 0.9s;
+    transition-timing-function: ease-in;
+}
+
+.sponsor-img {
+    transition: 0.5s;
+    width: 100%;
+}
+
+.sponsor-card-container:hover .sponsor-img {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.sponsor-link-card p {
+  display: none;
+  transition: 9s;
+}
+
+.sponsor-card-container:hover .sponsor-link-card p {
+    display: block;
+    transition: 9s;
+    height: 300px;
+}
+
+.sponsors-section {
+    background-color: #E9ECF2;
+}
+
+.sponsor-text {
+    display: none;
+    text-align: center;
+}
+
+.sponsor-card-container:hover .sponsor-text {
+    display: block;
+}
+
+.sponsor-card-container:hover .sponsor-card {
+    height: 320px;
+    transition: 0.5s;
+    justify-content: space-between;
+}
+
+.sponsor-card-container .btn {
+    background-color: #3c8d3c;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.sponsor-card-container .btn:hover {
+    background-color: #055e05;
+}
