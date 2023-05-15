@@ -18,6 +18,7 @@ import { SpeakersComponent } from './speakers/speakers.component';
 import { SupportingOrganizationsComponent } from './sponsorships/supporting-organizations/supporting-organizations.component';
 import { PrimePartnersComponent } from './sponsorships/prime-partners/prime-partners.component';
 import { IndustryConnectComponent } from './industry-connect/industry-connect.component';
+import { EventScheduleComponent } from './event-schedule/event-schedule.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { IndustryConnectComponent } from './industry-connect/industry-connect.co
     SupportingOrganizationsComponent,
     PrimePartnersComponent,
     IndustryConnectComponent,
+    EventScheduleComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

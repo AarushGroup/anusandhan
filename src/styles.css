@@ -39,7 +39,7 @@ body {
 }
 
 .custom-section {
-  margin-top: 7px;
+  margin-top: 12px;
   min-height: 100vh;
 }
 
@@ -202,4 +202,19 @@ p {
 
 .start-ups-content h6 {
   color: #3c8d3c !important;
+}
+.event-schedule {
+  justify-content: space-around;
+}
+
+.event-schedule .nav-link.active {
+  background-color: #3c8d3c;
+}
+
+.event-schedule .nav-link {
+  border: 1px solid #3c8d3c;
+  color: #3c8d3c;
+  border-radius: 33px;
+  padding: 10px 32px;
+  font-weight: 600;
 }
