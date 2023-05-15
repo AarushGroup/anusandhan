@@ -9,6 +9,7 @@ import { EAutomobilesComponent } from '../e-automobiles/e-automobiles.component'
 import { EHealthComponent } from '../e-health/e-health.component';
 import { RenewableEnergyComponent } from '../renewable-energy/renewable-energy.component';
 import { LogisticsComponent } from '../logistics/logistics.component';
+import { EnvironmentComponent } from '../environment/environment.component';
 
 const routes: Routes = [
   { 
@@ -39,6 +40,8 @@ const routes: Routes = [
 {path: 'renewable-energy', component: RenewableEnergyComponent},
 
 {path: 'logistics', component: LogisticsComponent},
+
+{path: 'environment', component: EnvironmentComponent},
 
 ];
 
