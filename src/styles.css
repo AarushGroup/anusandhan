@@ -178,7 +178,6 @@ p {
   display: none;
   text-align: center;
   color: #000 !important;
-
 }
 
 .sponsor-card-container:hover .sponsor-text {
@@ -201,6 +200,9 @@ p {
   background-color: #055e05;
 }
 
+.start-ups-content h6 {
+  color: #3c8d3c !important;
+}
 .event-schedule {
   justify-content: space-around;
 }
