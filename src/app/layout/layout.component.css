@@ -127,7 +127,7 @@
   position: absolute;
   top: 80px;
   left: 0;
-  width: 250px;
+  width: 222px;
   z-index: 99;
   display: block;
   padding-top: 20px;
@@ -251,8 +251,7 @@
 
 .footer-container {
   /* background: #000; */
-  background-image: url("../../assets/images/main-footer.png");
-  background-repeat: no-repeat;
+  background: linear-gradient(91.2deg, #65ADEF -4.92%, #1381E7 100%);  background-repeat: no-repeat;
   background-position: bottom;
   opacity: 1;
   margin-top: 90px;
