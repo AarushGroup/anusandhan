@@ -19,6 +19,7 @@ import { SupportingOrganizationsComponent } from './sponsorships/supporting-orga
 import { PrimePartnersComponent } from './sponsorships/prime-partners/prime-partners.component';
 import { IndustryConnectComponent } from './industry-connect/industry-connect.component';
 import { EventScheduleComponent } from './event-schedule/event-schedule.component';
+import { VenueDetailsComponent } from './venue-details/venue-details.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { EventScheduleComponent } from './event-schedule/event-schedule.componen
     PrimePartnersComponent,
     IndustryConnectComponent,
     EventScheduleComponent,
+    VenueDetailsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

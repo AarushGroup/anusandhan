@@ -1,0 +1,85 @@
+.pos-r {
+  position: relative;
+}
+
+.section-title-with-center {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.venue-map-wapper {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+a {
+  color: var(--bs-link-color);
+  text-decoration: underline;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.venue-map-wapper-details {
+  display: block;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.venue-map-wapper-details h4 {
+  color: #3c8d3c;
+  font-size: 1.3rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.venue-map-wapper-sap {
+  display: block;
+  width: 95%;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.venue-map-wapper-roadmap img.img-fluid {
+  margin-bottom: 1rem;
+}
+
+.venue-map-wapper-roadmap h5 {
+  font-size: 1rem;
+  color: #3c8d3c;
+  margin: 0 0;
+}
+
+.venue-map-wapper-sap p {
+  font-size: 0.8rem;
+}
+
+.brochure-text h4 {
+  color: #3c8d3c;
+  font-size: 1rem;
+}
+
+.modal-footer .save-btn {
+  background-color: #3c8d3c;
+  /* outline: none; */
+  border: none;
+}
+
+.modal-footer .download-btn {
+  background-color: #3c8d3c;
+  border: none;
+}
+
+.download-btn {
+  color: #fff;
+  text-decoration: none;
+  background-color: #3c8d3c;
+  border: none;
+}

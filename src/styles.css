@@ -219,7 +219,7 @@ p {
   font-weight: 600;
 }
 
-@media only screen and (min-width: 320px) and (max-width:767px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
   .carousel-container {
     flex-direction: column;
   }
@@ -273,5 +273,50 @@ p {
 
   .technology-partners {
     flex-direction: column;
+  }
+
+  #video-outer {
+    height: unset !important;
+  }
+
+  .anusandhan-header {
+    text-align: center !important;
+  }
+
+  .start-ups-banner img {
+    width: 100%;
+  }
+
+  .custom-section {
+    margin-top: 30px;
+  }
+
+  .about-card {
+    flex-direction: column !important;
+  }
+
+  .event-schedule {
+    margin-bottom: 0 !important;
+  }
+
+  .event-schedule li {
+    margin-bottom: 1rem;
+  }
+
+  .zones {
+    padding: 10px 10px !important;
+  }
+
+  .footer-container {
+    margin-top: 0 !important;
+  }
+
+  .contact-card {
+    margin-bottom: 1rem;
+  }
+
+  .client_container {
+    height: auto !important;
+    width: 100% !important;
   }
 }
