@@ -20,6 +20,7 @@ import { PrimePartnersComponent } from './sponsorships/prime-partners/prime-part
 import { IndustryConnectComponent } from './industry-connect/industry-connect.component';
 import { EventScheduleComponent } from './event-schedule/event-schedule.component';
 import { VenueDetailsComponent } from './venue-details/venue-details.component';
+import { EmergingTechnologiesComponent } from './emerging-technologies/emerging-technologies.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { VenueDetailsComponent } from './venue-details/venue-details.component';
     IndustryConnectComponent,
     EventScheduleComponent,
     VenueDetailsComponent,
+    EmergingTechnologiesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

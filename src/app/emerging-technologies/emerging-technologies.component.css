@@ -1,0 +1,73 @@
+.section-innerpage-wapper {
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.dis-ap {
+  margin-top: 35px;
+  margin-bottom: 100px;
+}
+
+/* h2 span {
+  text-decoration: underline #ffe25b;
+} */
+
+.project .col-lg-4 > div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.project-child {
+  margin-bottom: 10rem;
+}
+.project a {
+  color: black;
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
+}
+
+.project .col-lg-4 > div .yellow-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  /* background-color: rgba(140, 201, 204, 100); */
+  background-image: radial-gradient(
+    circle,
+    #eeeec4,
+    #e5ec9e,
+    #d6ec78,
+    #c2ec4e,
+    #a7ec09
+  );
+  opacity: 0;
+}
+
+.project .yellow-overlay {
+  /* -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease; */
+  transition: all 1s ease;
+}
+
+.project .col-lg-4 > div .yellow-overlay p {
+  text-align: center;
+  font-size: 25px;
+}
+
+.project .col-lg-4:nth-of-type(2) {
+  top: 60px;
+}
+
+.project .col-lg-4 {
+  position: relative;
+  height: 300px;
+}
+
+.project .col-lg-4 > div:hover .yellow-overlay {
+  opacity: 1;
+}
