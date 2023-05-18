@@ -39,10 +39,10 @@
   background-image: radial-gradient(
     circle,
     #eeeec4,
-    #e5ec9e,
-    #d6ec78,
-    #c2ec4e,
-    #a7ec09
+    #92b1c3,
+    #b7c3cf,
+    #7094cb,
+    #7d898f
   );
   opacity: 0;
 }
@@ -69,5 +69,5 @@
 }
 
 .project .col-lg-4 > div:hover .yellow-overlay {
-  opacity: 1;
+  opacity: 0.9;
 }
