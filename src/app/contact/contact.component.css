@@ -1,48 +1,124 @@
 .primary-highlight {
-    color: orange !important;
+  color: orange !important;
 }
 
 .secondary-highlight {
-    color: green !important;
-    margin-left: 5px;
+  color: #3baf3b !important;
+  margin-left: 5px;
 }
 
 .contact-us-icon {
-    height: 40px;
-    width: 40px;
+  height: 40px;
+  width: 40px;
 }
 
 .contact-name {
-    background: linear-gradient(91.64deg, #FFA500 5.95%, #3BAF3B 96.46%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(91.64deg, #ffa500 5.95%, #3baf3b 96.46%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .contact-card {
-    background-color: #f5f8fa !important;
-    border: 0 !important;
-    padding: 30px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-    border-radius: 10px;
+  background-color: #f5f8fa !important;
+  border: 0 !important;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
 }
 
 .contact-card h4 {
-    margin-top: 21px;
-    margin-bottom: 21px;
+  margin-top: 21px;
+  margin-bottom: 21px;
 }
 
 .contact-card p {
-    font-size: 18px;
-    margin-bottom: 0px;
-    color: #707070;
+  font-size: 18px;
+  margin-bottom: 0px;
+  color: #707070;
 }
 
 .contacts-card {
-    margin-bottom: 40px !important;
+  margin-bottom: 40px !important;
 }
 
 .location-map {
-    margin-top: 80px !important;
-    margin-bottom: 70px !important;
+  margin-top: 80px !important;
+  margin-bottom: 70px !important;
+}
+
+/* new css */
+.contact-address {
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.contact-address h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3baf3b;
+  text-align: center;
+}
+
+.contact-address address,
+.contact-address p {
+  margin-bottom: 0;
+  color: #585757;
+  text-align: center;
+}
+
+.contact-phone h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3baf3b;
+  text-align: center;
+}
+
+.contact-phone {
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.contact-phone p {
+  margin-bottom: 0;
+  color: #585757;
+  text-align: center;
+}
+
+.contact-phone span {
+  color: #585757;
+}
+
+.contact-phone {
+  border-left: 2px solid #ddd;
+  border-right: 2px solid #ddd;
+}
+
+.contact-email {
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.contact-email h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3baf3b;
+  text-align: center;
+}
+
+.contact-email p {
+  margin-bottom: 0;
+  color: #112363;
+  text-align: center;
+}
+
+.contact-email a {
+  color: #585757;
+  /* text-decoration: none; */
 }

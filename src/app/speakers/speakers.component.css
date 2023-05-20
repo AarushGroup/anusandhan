@@ -1,64 +1,87 @@
-.section-innerpage-wapper {
-  padding-top: 4rem;
-  margin-bottom: 2rem;
-}
-
 .dis-ap {
   margin-top: 35px;
   margin-bottom: 100px;
 }
 
-a {
-  display: block;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  text-decoration: none;
+#speakers {
+  padding: 60px 0 30px 0;
 }
 
-.specker-block-wapper {
+.wow {
+  visibility: hidden;
+}
+
+.section-header::before {
+  content: "";
+  position: absolute;
   display: block;
-  width: 100%;
+  width: 60px;
+  height: 5px;
+  background: #f82249;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-header h2 {
+  font-size: 36px;
+  /* text-transform: uppercase; */
   text-align: center;
-  margin-bottom: 4rem;
-  padding: 10px 5px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.gim-header-speaker {
+.section-header p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #9195a2;
+}
+
+#speakers .speaker {
   position: relative;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 257px;
-  height: 257px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border-radius: 50px 50px 50px 0px;
+  box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.25);
 }
 
-.gim-header-speaker img.img-fluid {
-  max-width: 100%;
-  border-radius: 17%;
+#speakers .speaker:hover .details {
+  bottom: 0;
 }
 
-.gim-body-speaker {
-  display: block;
-  margin-top: 1.5rem;
-}
-
-.gim-body-speaker h4 {
+#speakers .speaker .details h3 {
+  color: #fff;
+  font-size: 22px;
   font-weight: 600;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
   margin-bottom: 5px;
-  color: #3e368a;
+  height: 35px;
 }
 
-.gim-body-speaker p {
-  font-size: 0.9rem;
+#speakers .speaker .details a {
+  color: #fff;
 }
 
-p:last-child {
-  margin-bottom: 0;
+#speakers .speaker .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+#speakers .speaker .details .social {
+  height: 30px;
+  color: #fff;
+}
+
+#speakers .speaker .details {
+  background: rgba(6, 12, 34, 0.76);
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
