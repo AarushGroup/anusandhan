@@ -164,3 +164,11 @@ h2 span {
 .testimonial .row {
   overflow: hidden;
 }
+
+.tech-stack {
+  text-align: center;
+}
+
+.technology-content {
+  border-bottom: 1px solid #ddd;
+}
