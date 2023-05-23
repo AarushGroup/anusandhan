@@ -21,6 +21,9 @@ import { IndustryConnectComponent } from './industry-connect/industry-connect.co
 import { EventScheduleComponent } from './event-schedule/event-schedule.component';
 import { VenueDetailsComponent } from './venue-details/venue-details.component';
 import { EmergingTechnologiesComponent } from './emerging-technologies/emerging-technologies.component';
+import { EnterprenuerComponent } from './enterprenuer/enterprenuer.component';
+import { EnvironmentSeminarsComponent } from './environment-seminars/environment-seminars.component';
+import { FintechComponent } from './fintech/fintech.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +46,9 @@ import { EmergingTechnologiesComponent } from './emerging-technologies/emerging-
     EventScheduleComponent,
     VenueDetailsComponent,
     EmergingTechnologiesComponent,
+    EnterprenuerComponent,
+    EnvironmentSeminarsComponent,
+    FintechComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

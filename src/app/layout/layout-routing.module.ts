@@ -26,6 +26,9 @@ import { IndustryConnectComponent } from '../industry-connect/industry-connect.c
 import { EventScheduleComponent } from '../event-schedule/event-schedule.component';
 import { VenueDetailsComponent } from '../venue-details/venue-details.component';
 import { EmergingTechnologiesComponent } from '../emerging-technologies/emerging-technologies.component';
+import { EnterprenuerComponent } from '../enterprenuer/enterprenuer.component';
+import { EnvironmentSeminarsComponent } from '../environment-seminars/environment-seminars.component';
+import { FintechComponent } from '../fintech/fintech.component';
 
 const routes: Routes = [
   {
@@ -100,6 +103,12 @@ const routes: Routes = [
   { path: 'venue-details', component: VenueDetailsComponent },
 
   { path: 'emerging-technologies', component: EmergingTechnologiesComponent },
+
+  { path: 'enterprenuer', component: EnterprenuerComponent },
+
+  { path: 'environment-seminar', component: EnvironmentSeminarsComponent },
+
+  { path: 'fintech', component: FintechComponent },
 ];
 
 @NgModule({
