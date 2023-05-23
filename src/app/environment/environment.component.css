@@ -72,11 +72,178 @@
   position: relative;
 }
 
-.envi-banner-section {
-  background-image: url("../../assets/images/01.png");
+/* ----------------envi----------- */
+
+section {
+  padding: 70px 0px 40px;
+}
+
+.eco_services_environment {
+  float: left;
   width: 100%;
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
+}
+
+.eco_services_environment {
+  background-image: url("../../assets/images/eco-services-bg-img.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eco_headings {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.eco_headings h3 {
+  margin-bottom: 8px;
+  margin-top: -8px;
+  text-transform: uppercase;
+}
+
+.eco_headings h6 {
+  margin-bottom: 13px;
+}
+
+.eco_services {
+  margin-bottom: 29px;
+}
+
+.eco_services {
+  float: left;
+  width: 100%;
+}
+
+.eco_items-services {
+  float: left;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.eco_service_cols {
+  margin-bottom: 34px;
+  padding: 0px 10px;
+}
+
+.eco_service_cols,
+.eco_services {
+  float: left;
+  width: 100%;
+}
+
+.eco_service_cols span {
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
+  float: right;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 100%;
+  margin-left: 29px;
+  margin-top: 2px;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.eco_service_cols:hover span {
+  background-color: #7abf18;
+}
+
+.eco_service_cols span svg :hover {
+  fill: #fff;
+}
+
+.eco_service_cols:hover span:before {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  border-color: #fff;
+}
+
+.eco_service_cols span:before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border: 2px solid #333;
+  bottom: 0px;
+  margin: 0 auto;
+  border-radius: 100%;
+  z-index: -1;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}
+
+.eco_service_cols span::before {
+  transition: all 0.3s ease-in-out;
+}
+
+.eco_service_cols div {
+  float: none;
+  overflow: hidden;
+  width: auto;
+  text-align: right;
+}
+
+.eco_service_cols div h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.eco_service_cols div p {
+  margin-bottom: 0px;
+}
+
+.thumb-widthout-layer {
+  text-align: center;
+}
+
+.thumb-widthout-layer img {
+  text-align: center;
+  width: 80%;
+}
+
+.eco_items-services {
+  float: left;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.eco_service_cols {
+  margin-bottom: 34px;
+  padding: 0px 10px;
+}
+
+.eco_service_cols,
+.eco_services {
+  float: left;
+  width: 100%;
+}
+
+.eco_service_cols.rtl_service span {
+  float: left;
+  margin-left: 0px;
+  margin-right: 29px;
+}
+
+.eco_service_cols span {
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
+  float: right;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 100%;
+  margin-left: 29px;
+  margin-top: 2px;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.eco_service_cols.rtl_service div {
+  text-align: left;
 }
