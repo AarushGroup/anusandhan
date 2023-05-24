@@ -56,9 +56,8 @@
 .zones {
   height: 100%;
   width: 100%;
-  background-image: url("../../assets/images/ENTERPEUNER.jpg");
+  background-image: url("../../assets/images/enterpenuer-blend.png");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
-  opacity: 0.9;
 }

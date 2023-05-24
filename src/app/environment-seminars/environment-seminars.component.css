@@ -1,0 +1,258 @@
+.start-ups-banner {
+  margin-top: 15px;
+  background-image: url("../../assets/images/enviornment-w.png");
+}
+
+.start-ups-content.start-ups-content-text-center {
+  margin-bottom: 4rem;
+}
+
+.start-ups-content h6 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 2rem;
+  color: #3e368a;
+  margin: 1.5rem 0;
+  font-family: "Poppins";
+}
+
+.start-ups-content.start-ups-content-text-center p {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+
+.zones {
+  min-height: auto;
+  padding: 3rem 2rem;
+  /* background: #ffffff7a 0% 0% no-repeat padding-box; */
+  background: #fff;
+  box-shadow: -0.156vw 0.156vw 0.781vw rgb(0 0 0 / 16%);
+  border-radius: 1.563vw;
+  padding-right: 5rem;
+}
+
+.zones h4 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.zones ul li {
+  line-height: 1.8rem;
+  color: #2b2b2b;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.zones ul li::marker {
+  color: #fff;
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.zones {
+  height: 100%;
+  background-image: url("../../assets/images/environment-blend.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.envi-content-list {
+  min-height: auto;
+  padding: 3rem 0rem;
+}
+
+.environment-content h2 {
+  color: #3c8d3c;
+  margin-bottom: 1.5rem;
+}
+
+.envi-content-list ul li {
+  line-height: 1.8rem;
+  color: #2b2b2b;
+  margin-bottom: 15px;
+}
+
+.envi-content-list ul li::marker {
+  color: #3c8d3c;
+  font-size: 1.3rem;
+  position: relative;
+}
+
+/* ----------------envi----------- */
+
+section {
+  padding: 70px 0px 40px;
+}
+
+.eco_services_environment {
+  float: left;
+  width: 100%;
+}
+
+.eco_services_environment {
+  background-image: url("../../assets/images/eco-services-bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eco_headings {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.eco_headings h3 {
+  margin-bottom: 8px;
+  margin-top: -8px;
+  text-transform: uppercase;
+}
+
+.eco_headings h6 {
+  margin-bottom: 13px;
+}
+
+.eco_services {
+  margin-bottom: 29px;
+}
+
+.eco_services {
+  float: left;
+  width: 100%;
+}
+
+.eco_items-services {
+  float: left;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.eco_service_cols {
+  margin-bottom: 34px;
+  padding: 0px 10px;
+}
+
+.eco_service_cols,
+.eco_services {
+  float: left;
+  width: 100%;
+}
+
+.eco_service_cols span {
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
+  float: right;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 100%;
+  margin-left: 29px;
+  margin-top: 2px;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.eco_service_cols:hover span {
+  background-color: #7abf18;
+}
+
+.eco_service_cols span svg :hover {
+  fill: #fff;
+}
+
+.eco_service_cols:hover span:before {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  border-color: #fff;
+}
+
+.eco_service_cols span:before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  border: 2px solid #333;
+  bottom: 0px;
+  margin: 0 auto;
+  border-radius: 100%;
+  z-index: -1;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}
+
+.eco_service_cols span::before {
+  transition: all 0.3s ease-in-out;
+}
+
+.eco_service_cols div {
+  float: none;
+  overflow: hidden;
+  width: auto;
+  text-align: right;
+}
+
+.eco_service_cols div h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.eco_service_cols div p {
+  margin-bottom: 0px;
+}
+
+.thumb-widthout-layer {
+  text-align: center;
+}
+
+.thumb-widthout-layer img {
+  text-align: center;
+  width: 80%;
+}
+
+.eco_items-services {
+  float: left;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.eco_service_cols {
+  margin-bottom: 34px;
+  padding: 0px 10px;
+}
+
+.eco_service_cols,
+.eco_services {
+  float: left;
+  width: 100%;
+}
+
+.eco_service_cols.rtl_service span {
+  float: left;
+  margin-left: 0px;
+  margin-right: 29px;
+}
+
+.eco_service_cols span {
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
+  float: right;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 100%;
+  margin-left: 29px;
+  margin-top: 2px;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.eco_service_cols.rtl_service div {
+  text-align: left;
+}
