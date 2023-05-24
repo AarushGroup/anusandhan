@@ -31,6 +31,7 @@ import { EnvironmentSeminarsComponent } from '../environment-seminars/environmen
 import { FintechComponent } from '../fintech/fintech.component';
 import { DronesComponent } from '../drones/drones.component';
 import { DronesSeminarsComponent } from '../drones-seminars/drones-seminars.component';
+import { DigitalHealthcareComponent } from '../digital-healthcare/digital-healthcare.component';
 
 const routes: Routes = [
   {
@@ -115,6 +116,8 @@ const routes: Routes = [
   { path: 'drones', component: DronesComponent },
 
   { path: 'drones-seminar', component: DronesSeminarsComponent },
+
+  { path: 'digital-healthcare', component: DigitalHealthcareComponent },
 ];
 
 @NgModule({

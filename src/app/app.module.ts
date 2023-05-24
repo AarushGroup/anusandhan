@@ -26,6 +26,7 @@ import { EnvironmentSeminarsComponent } from './environment-seminars/environment
 import { FintechComponent } from './fintech/fintech.component';
 import { DronesComponent } from './drones/drones.component';
 import { DronesSeminarsComponent } from './drones-seminars/drones-seminars.component';
+import { DigitalHealthcareComponent } from './digital-healthcare/digital-healthcare.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { DronesSeminarsComponent } from './drones-seminars/drones-seminars.compo
     FintechComponent,
     DronesComponent,
     DronesSeminarsComponent,
+    DigitalHealthcareComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

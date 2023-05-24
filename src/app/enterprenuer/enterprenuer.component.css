@@ -32,23 +32,33 @@
 }
 
 .zones h4 {
-  color: #3e368a;
+  color: #fff;
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
 }
 
 .zones ul li {
   line-height: 1.8rem;
-  color: #2b2b2b;
   margin-bottom: 15px;
+  color: #fff;
 }
 
 .zones ul li::marker {
-  color: #3e368a;
+  color: #fff;
   font-size: 1.3rem;
   position: relative;
 }
 
 .enterprenuer-img img {
   border-radius: 30px 30px 0px 30px;
+}
+
+.zones {
+  height: 100%;
+  width: 100%;
+  background-image: url("../../assets/images/ENTERPEUNER.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.9;
 }

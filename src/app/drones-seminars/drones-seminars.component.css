@@ -1,0 +1,187 @@
+.wide-sm {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.wide-sm h1 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 0 18px;
+}
+
+.wide-sm p {
+  margin-bottom: 6rem;
+}
+
+section {
+  padding: 70px 0px 40px;
+}
+
+.bt_bb_service_content {
+  text-align: right;
+  padding: 0 1em 0 0;
+}
+
+.bt_bb_service_content_2 {
+  text-align: initial;
+}
+
+.bt_bb_service_content {
+  display: flex;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  align-items: center;
+  padding-bottom: 0.5em;
+}
+
+.bt_bb_service_content_2 {
+  display: flex;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  align-items: center;
+  padding-bottom: 0.5em;
+}
+
+.bt_bb_service_content_text_2 {
+  text-align: initial;
+}
+
+.bt_bb_service_content_title_2 {
+  width: 100%;
+  padding: 0 1em;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.bt_bb_service_content .bt_bb_service_content_title {
+  width: 100%;
+  padding: 0 1em;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.bt_bb_service_content_text {
+  text-align: right;
+}
+
+.bt_bb_service_content_text {
+  opacity: 0.8;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.bt_bb_service_content_text_2 {
+  opacity: 0.8;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.bt_bb_separator.bt_bb_bottom_spacing_medium {
+  margin-bottom: 4em;
+}
+
+.bt_bb_service_content_2 span svg:hover path {
+  fill: green;
+}
+.bt_bb_service_content span svg:hover path {
+  fill: green;
+}
+
+.zones {
+  min-height: auto;
+  padding: 3rem 2rem;
+  /* background: #ffffff7a 0% 0% no-repeat padding-box; */
+  background: #fff;
+  box-shadow: -0.156vw 0.156vw 0.781vw rgb(0 0 0 / 16%);
+  border-radius: 1.563vw;
+  padding-right: 5rem;
+  margin-top: 100px;
+}
+
+.zones h4 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.zones ul li {
+  line-height: 1.8rem;
+  color: #2b2b2b;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.zones ul li::marker {
+  color: #fff;
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.zones {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../assets/images/drone-g3.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+}
+
+/* -----new css----- */
+
+.mt_heading {
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+
+.mt_heading .section_heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.mt_heading .heading_txt {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.work_description h3 {
+  margin-top: 0;
+}
+
+ul li {
+  font-size: 16px;
+  font-family: "WonderUnitSans-Regular", sans-serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+  line-height: 24px;
+  color: #666666;
+  padding-left: 30px;
+  position: relative;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li:before {
+  background: #fb8233;
+  background: linear-gradient(to right, #5f940a 0%, #ec5d1a 100%);
+  border-radius: 50%;
+  content: "";
+  height: 10px;
+  left: 0;
+  margin-top: 1px;
+  position: absolute;
+  top: 6px;
+  width: 10px;
+}
+
+.workdrone img {
+  margin-top: 10px;
+  width: 100%;
+}

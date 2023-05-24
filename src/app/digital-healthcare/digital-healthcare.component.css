@@ -1,0 +1,14 @@
+.wide-sm {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.wide-sm h1 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 0 18px;
+}
+
+.wide-sm p {
+  margin-bottom: 6rem;
+}
