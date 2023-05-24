@@ -29,6 +29,8 @@ import { EmergingTechnologiesComponent } from '../emerging-technologies/emerging
 import { EnterprenuerComponent } from '../enterprenuer/enterprenuer.component';
 import { EnvironmentSeminarsComponent } from '../environment-seminars/environment-seminars.component';
 import { FintechComponent } from '../fintech/fintech.component';
+import { DronesComponent } from '../drones/drones.component';
+import { DronesSeminarsComponent } from '../drones-seminars/drones-seminars.component';
 
 const routes: Routes = [
   {
@@ -109,6 +111,10 @@ const routes: Routes = [
   { path: 'environment-seminar', component: EnvironmentSeminarsComponent },
 
   { path: 'fintech', component: FintechComponent },
+
+  { path: 'drones', component: DronesComponent },
+
+  { path: 'drones-seminar', component: DronesSeminarsComponent },
 ];
 
 @NgModule({
