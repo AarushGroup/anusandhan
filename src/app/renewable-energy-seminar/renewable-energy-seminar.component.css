@@ -124,19 +124,56 @@
 .about-windEnergy img {
   width: 100%;
   height: 313px;
-  border-radius: 50px 50px 50px 0px;
+  border-radius: 0 50px 50px 0;
 }
 
 .about-solarEnergy img {
   width: 100%;
   height: 313px;
-  border-radius: 50px 50px 0 50px;
+  border-radius: 50px 0 0 50px;
 }
 
 .about-greenEnergy img {
   width: 100%;
   height: 313px;
-  border-radius: 50px 50px 50px 0px;
+  border-radius: 0 50px 50px 0;
+}
+
+.windEnergy-content h2 {
+  padding: 0 35px;
+  margin-top: 15px;
+}
+.windEnergy-content p {
+  padding: 0 35px;
+  margin-top: 15px;
+}
+
+.renewable-sec-content {
+  border: 2px solid #3c8d3c;
+  border-radius: 50px;
+  flex-direction: row !important;
+  padding: 0px !important;
+  margin-left: 0 !important;
+  margin-right: 0px !important;
+}
+
+.solarEnergy-content h2 {
+  padding: 0 35px;
+  margin-top: 15px;
+}
+.solarEnergy-content p {
+  padding: 0 35px;
+  margin-top: 15px;
+}
+
+.greenEnergy-content h2 {
+  padding: 0 35px;
+  margin-top: 15px;
+}
+
+.greenEnergy-content p {
+  padding: 0 35px;
+  margin-top: 15px;
 }
 
 .zones {
