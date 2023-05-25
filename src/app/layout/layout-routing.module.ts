@@ -33,6 +33,7 @@ import { DronesComponent } from '../drones/drones.component';
 import { DronesSeminarsComponent } from '../drones-seminars/drones-seminars.component';
 import { DigitalHealthcareComponent } from '../digital-healthcare/digital-healthcare.component';
 import { RenewableEnergySeminarComponent } from '../renewable-energy-seminar/renewable-energy-seminar.component';
+import { NextgenAgriSeminarComponent } from '../nextgen-agri-seminar/nextgen-agri-seminar.component';
 
 const routes: Routes = [
   {
@@ -123,6 +124,11 @@ const routes: Routes = [
   {
     path: 'renewable-energy-seminar',
     component: RenewableEnergySeminarComponent,
+  },
+
+  {
+    path: 'nextGen-agri',
+    component: NextgenAgriSeminarComponent,
   },
 ];
 
