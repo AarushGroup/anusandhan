@@ -190,3 +190,42 @@
   transition: all 0.3s ease-in-out 0s;
   z-index: 0;
 }
+
+.zones {
+  min-height: auto;
+  padding: 3rem 2rem;
+  /* background: #ffffff7a 0% 0% no-repeat padding-box; */
+  background: #fff;
+  box-shadow: -0.156vw 0.156vw 0.781vw rgb(0 0 0 / 16%);
+  border-radius: 1.563vw;
+  padding-right: 5rem;
+  margin-top: 100px;
+}
+
+.zones h4 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.zones ul li {
+  line-height: 1.8rem;
+  color: #2b2b2b;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.zones ul li::marker {
+  color: #fff;
+  font-size: 1.3rem;
+  position: relative;
+}
+
+.zones {
+  height: 100vh;
+  background-image: url("../../assets/images/industry-blend.png");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+}

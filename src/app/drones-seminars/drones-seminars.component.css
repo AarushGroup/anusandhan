@@ -121,7 +121,6 @@ section {
 
 .zones {
   height: 100vh;
-  width: 100%;
   background-image: url("../../assets/images/drone-blend.png");
   background-attachment: fixed;
   background-position: center center;

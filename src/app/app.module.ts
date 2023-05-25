@@ -27,6 +27,7 @@ import { FintechComponent } from './fintech/fintech.component';
 import { DronesComponent } from './drones/drones.component';
 import { DronesSeminarsComponent } from './drones-seminars/drones-seminars.component';
 import { DigitalHealthcareComponent } from './digital-healthcare/digital-healthcare.component';
+import { RenewableEnergySeminarComponent } from './renewable-energy-seminar/renewable-energy-seminar.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { DigitalHealthcareComponent } from './digital-healthcare/digital-healthc
     DronesComponent,
     DronesSeminarsComponent,
     DigitalHealthcareComponent,
+    RenewableEnergySeminarComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
