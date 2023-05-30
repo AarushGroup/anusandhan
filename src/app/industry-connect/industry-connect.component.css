@@ -42,10 +42,6 @@
   top: 100%;
 }
 
-.carousel-indicators [data-bs-target] {
-  /* display: none; */
-}
-
 .section-block {
   margin-top: 0;
 }
@@ -78,10 +74,6 @@
 
 .section-pad .industry-heading {
   padding-top: 6rem;
-}
-
-.content {
-  border-bottom: 1px solid #ededed;
 }
 
 .industry-page::before {

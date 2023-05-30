@@ -48,10 +48,89 @@
 }
 
 .zones {
-  height: 100vh;
-  background-image: url("../../assets/images/HEALTHCARE-BLEND.png");
+  background-image: url("../../assets/images/digital-blend.png");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
   opacity: 1;
+}
+
+/* New css */
+
+.solutions-content .top-title {
+  font-size: 30px;
+  color: #0f8c32;
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.solutions-content h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.accordion-item {
+  margin-bottom: 30px;
+  border-radius: 0 !important;
+  border: none;
+  background-color: transparent;
+}
+
+.solutions-content h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.accordion-item h2 {
+  margin-bottom: 0;
+}
+
+.accordion-button {
+  padding: 0;
+  background-color: transparent;
+  padding-left: 45px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1b2336;
+}
+
+.accordion-button::after {
+  background-image: url("../../assets/images/plus-icon.svg");
+  background-position: center;
+  z-index: 9998;
+  position: absolute;
+  border: 1px solid #0f8c32;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  left: 0;
+  top: -1px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 19px;
+  background-color: #ffffff;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.accordion-item .accordion-body {
+  padding: 0;
+  margin-top: 15px;
+  padding-left: 35px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.accordion-item .accordion-body a {
+  color: #00ca99;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
 }

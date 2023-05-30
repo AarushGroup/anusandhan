@@ -52,6 +52,9 @@
 
 .accordion-item {
   padding: 15px;
+  border: 1px solid #ededed;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .accordion-button:not(.collapsed) {
@@ -95,10 +98,14 @@
 }
 
 .zones {
-  height: 100vh;
   background-image: url("../../assets/images/nextgen-blendpic.png");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
   opacity: 1;
+}
+
+.agri-gen-img img {
+  height: 100%;
+  width: 100%;
 }
