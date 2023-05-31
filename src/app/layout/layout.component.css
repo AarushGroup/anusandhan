@@ -249,16 +249,6 @@
 
 /* footer */
 
-.footer-container {
-  /* background: #000; */
-  background: linear-gradient(91.2deg, #58d75c -4.92%, #4a6d8f 100%);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  opacity: 1;
-  margin-top: 90px;
-  position: relative;
-}
-
 .footer-container .footer-lists {
   margin-top: 50px;
   list-style: none;
@@ -464,4 +454,25 @@
   height: 4px;
   width: 4px;
   border-radius: 2px;
+}
+
+.footer-container {
+  background-blend-mode: overlay;
+  /* background: linear-gradient(91.2deg, #58d75c -4.92%, #4a6d8f 100%); */
+  background: rgb(81 151 38 / 85%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 350px;
+}
+
+.footer-banner {
+  background-image: url("../../assets/images/Untitled-5.png");
+  background-repeat: no-repeat;
+  min-height: 300px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
