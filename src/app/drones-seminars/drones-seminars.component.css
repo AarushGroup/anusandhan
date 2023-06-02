@@ -184,3 +184,13 @@ ul li:before {
   margin-top: 10px;
   width: 100%;
 }
+
+.drone-message-banner {
+  background-image: url("../../assets/images/drone-text-bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  min-height: 370px;
+  max-width: 100%;
+  margin-top: 60px;
+}

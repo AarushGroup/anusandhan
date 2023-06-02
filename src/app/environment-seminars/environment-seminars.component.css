@@ -262,4 +262,6 @@ section {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
+  min-height: 370px;
+  max-width: 100%;
 }

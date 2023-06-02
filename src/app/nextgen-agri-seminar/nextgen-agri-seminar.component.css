@@ -109,3 +109,12 @@
   height: 100%;
   width: 100%;
 }
+
+.accordion-button::after {
+  background-image: url("../../assets/images/plus-icon.svg");
+  transition: 0.4s;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../assets/images/dash-icon.svg");
+}

@@ -220,4 +220,10 @@ h2 span {
   background-attachment: fixed;
   background-position: center center;
   opacity: 0.8;
+  min-height: 370px;
+  max-width: 100%;
+}
+
+.tech-message p {
+  margin-bottom: 25px;
 }
