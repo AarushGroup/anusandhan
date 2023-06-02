@@ -53,7 +53,7 @@
 
 .zones {
   height: 100%;
-  background-image: url("../../assets/images/environment-blend.png");
+  background-image: url("../../assets/images/envi-text-bg.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -93,9 +93,9 @@ section {
 }
 
 .eco_services_environment {
-  background-image: url("../../assets/images/eco-services-bg-img.jpg");
+  /* background-image: url("../../assets/images/eco-services-bg-img.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .eco_headings {
@@ -255,4 +255,11 @@ section {
 
 .eco_service_cols.rtl_service div {
   text-align: left;
+}
+
+.evnironment-message-banner {
+  background-image: url("../../assets/images/text-envi-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
 }

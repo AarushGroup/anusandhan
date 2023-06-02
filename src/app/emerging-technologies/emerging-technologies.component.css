@@ -213,3 +213,11 @@ h2 span {
 .wide-sm p {
   margin-bottom: 6rem;
 }
+
+.tech-message-banner {
+  background-image: url("../../assets/images/text-bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  opacity: 0.8;
+}
