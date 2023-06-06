@@ -111,6 +111,10 @@
   background-color: #ffffff;
   color: #ffffff;
   display: inline-block;
+  transition: 0.4s;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../../assets/images/dash-icon.svg");
 }
 
 .collapse:not(.show) {
