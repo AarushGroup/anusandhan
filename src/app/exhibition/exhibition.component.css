@@ -1,0 +1,37 @@
+.section {
+  padding: 100px 0 70px;
+  position: relative;
+}
+
+.section .container {
+  position: relative;
+}
+
+.features-icon-box {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.features-icon-box .features-icon img {
+  width: 75px;
+  height: 75px;
+}
+
+.features-icon-box .features-info {
+  margin-left: 20px;
+}
+
+.features-icon-box .features-info h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.features-icon-box .features-info p {
+  margin-bottom: 22px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #727272;
+  font-weight: 400;
+}
