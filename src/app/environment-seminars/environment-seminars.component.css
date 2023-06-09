@@ -156,13 +156,15 @@ section {
   background-color: transparent;
 }
 
-.eco_service_cols:hover span {
+.eco_service_cols:hover span,
+svg :hover {
   background-color: #7abf18;
-}
-
-.eco_service_cols span svg :hover {
   fill: #fff;
 }
+
+/* .eco_service_cols span svg :hover {
+  fill: #fff;
+} */
 
 .eco_service_cols:hover span:before {
   transform: scale(0.9);

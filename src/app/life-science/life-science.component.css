@@ -1,0 +1,54 @@
+.about-life-science {
+}
+
+.life-science-image img {
+  width: 100%;
+}
+
+.life-science-content {
+  padding: 0px 25px;
+}
+
+.life-science-sec {
+  background-color: #eff1f4;
+  height: 230px;
+}
+
+.life-features-sec {
+  padding-top: 50px;
+}
+
+.life-features-icon-box {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.life-features-icon-box .features-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.life-features-icon-box .features-info {
+  margin-left: 20px;
+}
+
+.life-features-icon-box .features-info h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.life-features-icon-box .features-info p {
+  margin-bottom: 22px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #727272;
+  font-weight: 400;
+}
+
+.life-section-list {
+  margin: 50px 0;
+  padding: 0 230px;
+  line-height: 40px;
+}

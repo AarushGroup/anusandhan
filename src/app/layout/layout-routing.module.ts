@@ -35,6 +35,7 @@ import { DigitalHealthcareComponent } from '../digital-healthcare/digital-health
 import { RenewableEnergySeminarComponent } from '../renewable-energy-seminar/renewable-energy-seminar.component';
 import { NextgenAgriSeminarComponent } from '../nextgen-agri-seminar/nextgen-agri-seminar.component';
 import { ExhibitionComponent } from '../exhibition/exhibition.component';
+import { LifeScienceComponent } from '../life-science/life-science.component';
 
 const routes: Routes = [
   {
@@ -134,6 +135,10 @@ const routes: Routes = [
   {
     path: 'exhibition',
     component: ExhibitionComponent,
+  },
+  {
+    path: 'life-science',
+    component: LifeScienceComponent,
   },
 ];
 

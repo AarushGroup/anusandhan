@@ -29,6 +29,7 @@ import { DronesSeminarsComponent } from './drones-seminars/drones-seminars.compo
 import { DigitalHealthcareComponent } from './digital-healthcare/digital-healthcare.component';
 import { RenewableEnergySeminarComponent } from './renewable-energy-seminar/renewable-energy-seminar.component';
 import { NextgenAgriSeminarComponent } from './nextgen-agri-seminar/nextgen-agri-seminar.component';
+import { LifeScienceComponent } from './life-science/life-science.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { NextgenAgriSeminarComponent } from './nextgen-agri-seminar/nextgen-agri
     DigitalHealthcareComponent,
     RenewableEnergySeminarComponent,
     NextgenAgriSeminarComponent,
+    LifeScienceComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
